@@ -1,0 +1,3 @@
+
+Q19
+option -g   compiles update_bb() to 551 lines of instructions in ASM which is a reduction of 1.00000 compared to -g  option -O3  compiles update_bb() to 221 lines of instructions in ASM which is a reduction of 2.49321 compared to -g  

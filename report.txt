@@ -1,0 +1,8 @@
+1
+
+check_route
+check_netlist
+try_place
+try_route
+read_netlist
+

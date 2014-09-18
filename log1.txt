@@ -1,0 +1,30 @@
+
+Q2
+option -O3    takes 10.66 seconds which is 1.00000 times faster than -O3   
+option -O2    takes  8.50 seconds which is 1.25412 times faster than -O3   
+option -Os    takes  7.26 seconds which is 1.46832 times faster than -O3   
+option gcov   takes  4.29 seconds which is 2.48485 times faster than -O3   
+option -g     takes  3.78 seconds which is 2.82011 times faster than -O3   
+option gprof  takes  3.77 seconds which is 2.82759 times faster than -O3   
+
+Q6
+parallel compilation using 1 processes takes 12.57 seconds which is 1.00000 times faster than using 1 processes
+parallel compilation using 2 processes takes  6.37 seconds which is 1.97331 times faster than using 1 processes
+parallel compilation using 4 processes takes  3.38 seconds which is 3.71893 times faster than using 1 processes
+parallel compilation using 8 processes takes  3.56 seconds which is 3.53090 times faster than using 1 processes
+
+Q8
+option -Os    takes  284392 bytes which is 1.00000 times bigger than -Os   
+option -O2    takes  335691 bytes which is 1.18038 times bigger than -Os   
+option -O3    takes  379337 bytes which is 1.33385 times bigger than -Os   
+option -g     takes  817800 bytes which is 2.87561 times bigger than -Os   
+option gprof  takes  822176 bytes which is 2.89100 times bigger than -Os   
+option gcov   takes 1087894 bytes which is 3.82533 times bigger than -Os   
+
+Q12
+option gprof  takes  8.23 seconds which is 1.00000 times faster than gprof 
+option gcov   takes  6.29 seconds which is 1.30843 times faster than gprof 
+option -g     takes  5.96 seconds which is 1.38087 times faster than gprof 
+option -Os    takes  3.00 seconds which is 2.74333 times faster than gprof 
+option -O2    takes  2.60 seconds which is 3.16538 times faster than gprof 
+option -O3    takes  2.49 seconds which is 3.30522 times faster than gprof 
