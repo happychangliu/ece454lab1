@@ -28,3 +28,32 @@ option -g     takes  5.96 seconds which is 1.38087 times faster than gprof
 option -Os    takes  3.00 seconds which is 2.74333 times faster than gprof 
 option -O2    takes  2.60 seconds which is 3.16538 times faster than gprof 
 option -O3    takes  2.49 seconds which is 3.30522 times faster than gprof 
+
+
+Q3
+-O3 takes the longest because by adding the -O3 flags, it not only turns on all optimizations that would be turned on by -O2 flags, but it also turns on a set of optimization specific to -O3. 
+
+Q4
+gprof takes the shortest because it allows the program to compile normally besides inserting monitoring function calls before each function call occurances in the source code.
+
+Q5 
+gprof takes shorter time comparing to gcov because gcov 
+
+
+Q9
+-Os is the smallest because it runs all optimization within -O2 sets and disable all optimizations that potentially increases size. Also -Os turns on a list of specific size-reducing optimizations. 
+
+Q10
+gcov is the largest because it has information regarding every single line of code within the program and creates program flow graph for each functions. 
+
+Q11 
+gcov is larger than gprof because gprof only stores an additional file gmon.out that has an additional function call before each function call. Gcov stores more files and contains more information as mentioned in Q10.
+
+Q13
+gprof is the slowest because it would take time to collect and write profilling data. 
+
+Q14
+-O3 is the fastest because it ran the most number of optimizations during compiling comparing to -O2 and others. 
+
+Q15
+gcov runs faster because gprof would periodically interrupts the program to collect profilling data whereas gcov would only runs more code. 
